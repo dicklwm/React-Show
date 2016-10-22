@@ -1,0 +1,125 @@
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 500;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    border: 1px solid #d9d9d9;
+    white-space: nowrap;
+    line-height: 1.5;
+    padding: 4px 15px;
+    font-size: 12px;
+    border-radius: 6px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all .3s cubic-bezier(0.65, 0.05, 0.36, 1);
+    transition: all .3s cubic-bezier(.645, .045, .355, 1);
+    position: relative;
+    color: #666;
+    background-color: #f7f7f7;
+    }
+
+.btn:active,
+.btn:focus,
+.btn:hover {
+    background: #fff;
+    }
+
+.btn,
+.btn:active,
+.btn:focus {
+    outline: 0;
+    }
+
+.btn-primary {
+    color: #fff;
+    background-color: #2db7f5;
+    border-color: #2db7f5;
+    }
+
+.btn-primary:focus,
+.btn-primary:hover {
+    color: #fff;
+    background-color: #57c5f7;
+    border-color: #57c5f7;
+    }
+
+.btn-ghost {
+    color: #666;
+    background-color: transparent;
+    border-color: #d9d9d9;
+    }
+
+.btn-ghost:focus,
+.btn-ghost:hover {
+    color: #57c5f7;
+    background-color: transparent;
+    border-color: #57c5f7;
+    }
+
+.btn-dashed {
+    color: #666;
+    background-color: transparent;
+    border-color: #d9d9d9;
+    border-style: dashed;
+    }
+
+.btn-dashed:focus,
+.btn-dashed:hover {
+    color: #57c5f7;
+    background-color: transparent;
+    border-color: #57c5f7;
+    }
+
+.btn-large {
+    padding: 4px 15px 5px;
+    font-size: 14px;
+    border-radius: 6px;
+    }
+
+.btn-small {
+    padding: 1px 7px;
+    font-size: 12px;
+    border-radius: 4px;
+    }
+
+.btn.loading {
+    /*pointer-events: none;*/
+    }
+
+.btn > i {
+    margin-right: 5px;
+    }
+
+.btn-circle,
+.btn-circle-outline {
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    font-size: 14px;
+    border-radius: 50%;
+    }
+
+.btn.disabled,
+.btn.disabled.active,
+.btn.disabled:active,
+.btn.disabled:focus,
+.btn.disabled:hover,
+.btn[disabled],
+.btn[disabled].active,
+.btn[disabled]:active,
+.btn[disabled]:focus,
+.btn[disabled]:hover {
+    color: #ccc;
+    background-color: #f7f7f7;
+    border-color: #d9d9d9;
+    }
+
+.btn.disabled,
+.btn[disabled] {
+    cursor: not-allowed;
+    }
