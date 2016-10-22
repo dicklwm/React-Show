@@ -1,0 +1,29 @@
+.rate .star {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin-right: 8px;
+    position: relative;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    cursor: pointer;
+    font-size: 30px;
+    opacity: .2;
+    }
+
+.rate .star.selected {
+    color: #f78a09;
+    opacity: 1;
+    }
+
+.rate .star.hover {
+    color: #f78a09;
+    opacity: 1;
+    }
+
+.rate .star:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    color: #f78a09;
+    opacity: 1;
+    }
