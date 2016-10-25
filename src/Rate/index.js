@@ -17,7 +17,6 @@ var Rate=React.createClass({
     },
     //组件被渲染前
     componentWillMount: function () {
-        console.log('componentWillMount','第一次加载默认的星星数量');
         //设置State星星的数组
         this.setState({
             nodes: this.flashStar(this.props.value)
@@ -25,7 +24,6 @@ var Rate=React.createClass({
     },
     //渲染
     render: function () {
-        console.log('render');
         return (
             <div className="rate">
                 {this.state.nodes}
